@@ -15,7 +15,6 @@ do
 done
 
 #Q2
-#! bin/bash
 i=1
 j=1
 
@@ -35,3 +34,4 @@ do
     echo
     let i=i+1
 done
+
