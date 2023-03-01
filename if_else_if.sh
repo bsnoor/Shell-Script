@@ -19,5 +19,11 @@ if [ $num -ne 1 ];then
    echo "the number is not equal 1 "
 fi
 
+#Q4
+var1=1
+if [ $var1 -eq 1 ];then
+echo "value is true "
+fi
+
 
 
