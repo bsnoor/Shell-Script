@@ -36,7 +36,7 @@ do
 done
 
 #Q3
-#!/bin/bash
+
 function check { 
 if [ "$1" -lt 3 ];then 
 echo "the number of the argument isnt enough"
@@ -47,3 +47,10 @@ fi
 input=2
 check $input
 
+#Q4
+ 
+function check_ex { 
+
+    echo "$1" 
+}
+check_ex
