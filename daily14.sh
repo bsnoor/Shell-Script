@@ -35,3 +35,15 @@ do
     let i=i+1
 done
 
+#Q3
+#!/bin/bash
+function check { 
+if [ "$1" -lt 3 ];then 
+echo "the number of the argument isnt enough"
+else
+    echo "great"
+fi 
+}
+input=2
+check $input
+
