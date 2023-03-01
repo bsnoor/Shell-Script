@@ -13,5 +13,11 @@ if [  ! -z $arg  ]; then
 echo $arg
 fi
 
+#Q3
+read -p "please enter a number : " num
+if [ $num -ne 1 ];then
+   echo "the number is not equal 1 "
+fi
+
 
 
