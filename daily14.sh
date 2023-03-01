@@ -67,3 +67,8 @@ function show {
 }
 show 
 
+#Q6
+read -p "please enter a dir name : " dir
+find /-type d -name $dir | cd
+cd $dir
+ls
