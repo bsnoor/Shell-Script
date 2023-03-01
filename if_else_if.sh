@@ -26,7 +26,6 @@ echo "value is true "
 fi
 
 #Q5
-
 var1=b
 if [ $var1 == b ];then
 echo "value is true "
