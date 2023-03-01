@@ -37,6 +37,18 @@ if (( $var1 > 5));then
 echo "the value is true "
 fi
 
+#Q7
+read -p "please enter a number in range 1-100: " i
+if [ $i -le 1 ] || [ $i -ge 100 ];then
+echo "out of the range"
+elif [ $i > 50 ];then
+echo "the number is gretar than 50  "
+elif [ $i < 50 ];then
+echo "less than 50 "
+else 
+echo "bingo "     
+fi
+
 
 
 
