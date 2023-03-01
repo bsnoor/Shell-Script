@@ -54,3 +54,16 @@ function check_ex {
     echo "$1" 
 }
 check_ex
+
+#Q5
+function show { 
+
+     echo "1  restart "
+     echo "2 shutdown your VM "
+     echo "3 exist from the script"
+   read -p "please choose an option: " m
+
+
+}
+show 
+
