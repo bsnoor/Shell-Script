@@ -31,5 +31,12 @@ if [ $var1 == b ];then
 echo "value is true "
 fi
 
+#Q6
+var1=10
+if (( $var1 > 5));then
+echo "the value is true "
+fi
+
+
 
 
