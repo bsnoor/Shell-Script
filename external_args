@@ -57,4 +57,13 @@ else
 echo "not exist"
 fi
 
+#Q8
+read -p "please enter a file" num
+if [[  -f $num ]];then
+if [[ -s $num ]];then
+echo "file isnt empty"
+else 
+echo "file is empty"
+fi
+fi
 
