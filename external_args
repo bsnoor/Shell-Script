@@ -31,5 +31,12 @@ else
     echo " false"
 fi
 
+#Q5
+read -p "please enter your age:  " age
+if [[ $age -ge 18 ]];then
+echo "you are legally allowed in"
+else 
+     echo "you are not allowed "
+fi
 
 
