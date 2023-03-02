@@ -7,3 +7,12 @@ else
      echo "error"
 fi
 
+#Q2
+if [[ $# -eq 2 ]]
+then 
+     echo "great only 2"
+else 
+    echo "error"
+fi
+
+
