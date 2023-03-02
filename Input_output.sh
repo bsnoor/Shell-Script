@@ -31,6 +31,12 @@ if [[ $var1 -eq 7 ]]
 then
     echo " the value is true "
 fi
+#Q8
+
+var1=hello 
+var2=re/start
+echo "$var1 $var2 "
+
 
 
 
