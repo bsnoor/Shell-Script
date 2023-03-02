@@ -39,4 +39,12 @@ else
      echo "you are not allowed "
 fi
 
+#Q6
+read -sp "please enter password: " pass
+if [[ $pass -eq 123 ]];then
+echo "verified"
+else
+echo "denied"
+fi
+
 
