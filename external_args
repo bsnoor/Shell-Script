@@ -15,4 +15,12 @@ else
     echo "error"
 fi
 
+#Q3
+if [[ $# -gt 1  ]] && [[ $# -lt 5 ]]
+then 
+     echo "great " 
+else 
+     echo "error"
+fi
+
 
