@@ -39,7 +39,7 @@ echo "$var1 $var2 "
 #Q9
 read -p "please write here your degree " de
 echo " your degree is $de "
-#10
+#Q10
 if [[ $# -gt 5 ]]
 then 
      echo"too many"
@@ -53,6 +53,12 @@ elif [[ $# -eq 0 ]]
 then
        echo "sloppy"
 fi
+#Q11
+read -p "please enter two numbers : " num1 num2
+num3=$(( num1+num2 ))
+echo " $num3 "
+
+
 
 
 
