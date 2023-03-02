@@ -47,4 +47,14 @@ else
 echo "denied"
 fi
 
+#Q7
+read -p "please enter a file or directory " num
+if [[  -d $num ]];then
+echo "great you dir is found"
+elif [[  -f $num ]];then
+echo "its a file"
+else
+echo "not exist"
+fi
+
 
