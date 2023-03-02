@@ -2,7 +2,7 @@
 
 echo "hello , how are you ? "
 echo "hello have a nu=ice day "
-echo "hello this is my username : $hostname "
+echo "hello this is my username : $hostname  "
 echo "please enter an argument $USER "
 #Q4
 for i in red yellow green
