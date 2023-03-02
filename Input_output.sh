@@ -25,6 +25,12 @@ if [[ $nume -ne 7 ]]
 then 
    echo "the number isnt 7 "
 fi
+#Q7
+var1=7
+if [[ $var1 -eq 7 ]]
+then
+    echo " the value is true "
+fi
 
 
 
