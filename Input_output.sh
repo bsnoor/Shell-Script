@@ -26,4 +26,9 @@ then
    echo "the number isnt 7 "
 fi
 
+#read -p "please enter a number " num
+#if [[ $nume -ne 7 ]]
+#then 
+#   echo "the number isnt 7 "
+#fi
 
