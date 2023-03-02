@@ -1,1 +1,9 @@
 #!/bin/bash
+#Q1
+if [[ $# -eq 1 ]]
+then
+    echo "great " 
+else
+     echo "error"
+fi
+
