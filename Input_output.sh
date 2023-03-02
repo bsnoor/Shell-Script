@@ -31,11 +31,30 @@ if [[ $var1 -eq 7 ]]
 then
     echo " the value is true "
 fi
-#Q8
 
+#Q8
 var1=hello 
 var2=re/start
 echo "$var1 $var2 "
+#Q9
+read -p "please write here your degree " de
+echo " your degree is $de "
+#10
+if [[ $# -gt 5 ]]
+then 
+     echo"too many"
+elif [[ $# -gt  3 ]] && [[ $# -le 5  ]]
+then 
+     echo "nice"
+elif [[ $# -lt 3 ]] && [[ $# -gt 0 ]]
+then 
+      echo " not enough "
+elif [[ $# -eq 0 ]]
+then
+       echo "sloppy"
+fi
+
+
 
 
 
