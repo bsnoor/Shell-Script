@@ -6,7 +6,7 @@ echo "hello this is my username : $hostname  "
 echo "please enter an argument $USER "
 #Q4
 for i in red yellow green
-do 
+do  
  sleep 2
  echo $i
 done
