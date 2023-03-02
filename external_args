@@ -23,4 +23,13 @@ else
      echo "error"
 fi
 
+#Q4
+if [[ $# -lt 10  ]]
+then
+    echo "you have entered the corccet argument"
+else
+    echo " false"
+fi
+
+
 
