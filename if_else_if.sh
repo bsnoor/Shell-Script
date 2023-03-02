@@ -50,5 +50,10 @@ echo "bingo "
 fi
 
 
-
+if [ $# -ne 1 ]
+then 
+    echo "please enter one argument "
+else 
+      echo "thank you"
+fi
 
