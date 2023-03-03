@@ -1,4 +1,4 @@
-                       hel1                                   
+                               
 #!/bin/bash
 
 read -p "please enter a number " num
