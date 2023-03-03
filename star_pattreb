@@ -2,17 +2,16 @@
 
 read -p "please enter a number " num
 i=1
-while [[ $i -le $nume ]];do
+while [[ $i -le $num ]]; do
   j=$num
-  while [[ $j -ge 1 ]];do
-    if [[ $j -gt $i ]];then
+  while [[ $j -ge 1 ]]; do
+    if [[ $j -gt $i ]]; then
         echo -n " "
     else
-        echo "*"
+        echo -n "*"
     fi
     ((j--))
   done
-  echo " "
+  echo
   ((i++))
 done
-
