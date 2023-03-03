@@ -1,3 +1,4 @@
+                       hel1                                   
 #!/bin/bash
 
 read -p "please enter a number " num
@@ -8,10 +9,11 @@ while [[ $i -le $num ]]; do
     if [[ $j -gt $i ]]; then
         echo -n " "
     else
-        echo -n "*"
+        echo -n " *"
     fi
     ((j--))
   done
-  echo
+  echo "  "
   ((i++))
 done
+
