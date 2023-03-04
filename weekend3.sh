@@ -138,6 +138,24 @@ while [[ $i -le $num ]]; do
  echo " "
  ((i++))
 done
+#empty square
+read -p "please enter the rows and the colms : " num
+i=1
+while [[ $i -le $num ]]; do
+ j=1
+ while [[ $j -le $num ]];do
+  if [[ $i -eq 1 || $j -eq 1 || $i -eq $num || $j -eq $num  ]];then
+   echo -n "*"
+  else
+   echo -n " "
+  fi 
+ ((j++))
+ done
+ echo " "
+ ((i++))
+done
+
+
 
 
 
