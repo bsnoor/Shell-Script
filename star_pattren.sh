@@ -63,6 +63,18 @@ while [[ $i -le  $num1 ]]
  echo  " "
  ((i++))
 done 
+#upper matrix from the left
+read -p "please enter the number of the rows and colms " num1  
+i=$num1
+while [[ $i -ge 1 ]];do
+ j=1
+ while [[ $j -le $i ]];do
+  echo -n "*"
+  ((j++))
+  done
+ echo " "
+ ((i--))
+done 
 
 
 
