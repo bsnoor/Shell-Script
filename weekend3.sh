@@ -39,3 +39,4 @@ i=0
 while [[ $i -lt ${#num5} ]];do
  echo "${num5:$i:1}"
  let i=i+2
+done
