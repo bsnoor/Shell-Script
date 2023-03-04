@@ -1,4 +1,19 @@
 #!/bin/bash
+#full square
+read -p "please enter the number of the rows and colms " num1  
+i=1
+while [[ $i -lt  $num1 ]]
+ do
+ j=1
+   while [[ $j -lt $num1 ]]
+    do
+     echo -n "*" 
+     ((j++))
+   done
+ echo  " "
+ ((i++))
+done 
+
 #pyramid
 read -p "please enter a number " num
 i=1
