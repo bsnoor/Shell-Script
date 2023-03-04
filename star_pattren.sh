@@ -75,7 +75,7 @@ while [[ $i -ge 1 ]];do
  echo " "
  ((i--))
 done 
-#parallelogram
+# parallelogram_star
 read -p "please enter the number of the rows and colms " num1  
 i=1
 while [[ $i -le $num1 ]];do
