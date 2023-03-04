@@ -30,4 +30,23 @@ while [[ $i -le $num ]]; do
   echo "  "
   ((i++))
 done
+#lower matrix
+read -p "please enter the number of the rows and colms " num1  
+i=1
+while [[ $i -le  $num1 ]]
+ do
+ j=1
+   while [[ $j -le $i ]]
+    do
+     echo -n "*" 
+     ((j++))
+   done
+ echo  " "
+ ((i++))
+done 
+
+
+
+
+
 
