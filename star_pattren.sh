@@ -92,7 +92,25 @@ while [[ $i -le $num1 ]];do
   echo " "
   ((i++))
   done
-    
+  read -p "please enter a number " num
+i=1
+while [[ $i -le $num ]]; do
+  j=$num
+  k=1
+  while [[ $j -ge 1 ]]; do
+    if [[ $j -gt $i ]]; then
+        echo -n " "
+    else
+        echo -n " $k"
+    fi
+    ((j--))
+    ((k++))
+  done
+  echo "  "
+  ((i++))
+done
+
+  
 
 
 
