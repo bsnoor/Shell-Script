@@ -154,6 +154,23 @@ while [[ $i -le $num ]]; do
  echo " "
  ((i++))
 done
+#para
+read -p "please enter the rows and the colms : " num
+i=1
+while [[ $i -le $num ]]; do
+ j=1
+ while [[ $j -le $i ]];do
+   echo -n " " 
+ ((j++))
+ done
+ k=1
+  while [[ $k -le $num ]];do
+   echo -n "* "
+  (( k++))
+  done
+ echo " "
+ ((i++))
+done
 
 
 
