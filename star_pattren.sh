@@ -1,4 +1,5 @@
 #!/bin/bash
+#pyramid
 read -p "please enter a number " num
 i=1
 while [[ $i -le $num ]]; do
