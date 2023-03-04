@@ -30,7 +30,7 @@ while [[ $i -le $num ]]; do
   echo "  "
   ((i++))
 done
-#lower matrix
+#lower matrix from the lift 
 read -p "please enter the number of the rows and colms " num1  
 i=1
 while [[ $i -le  $num1 ]]
@@ -44,6 +44,26 @@ while [[ $i -le  $num1 ]]
  echo  " "
  ((i++))
 done 
+
+#lower matrix from the right
+read -p "please enter the number of the rows and colms " num1  
+i=1
+while [[ $i -le  $num1 ]]
+ do
+ j=1
+   while [[ $j -le $num1 ]]
+   do 
+    if [[ $((i+j)) -le $((num1)) ]];then
+    echo -n " "
+    else
+    echo -n "*" 
+    fi
+     ((j++))
+   done
+ echo  " "
+ ((i++))
+done 
+
 
 
 
