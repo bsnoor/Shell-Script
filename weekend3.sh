@@ -40,3 +40,13 @@ while [[ $i -lt ${#num5} ]];do
  echo "${num5:$i:1}"
  let i=i+2
 done
+# reverse number
+read -p "please enter a number : " num
+rev=0
+while [[ $num -gt 0 ]];do
+ rem=$((num%10))
+ rev=$((rev*10+rem))
+ num=$((num/10))
+done
+echo " the reverse number is $rev "
+
