@@ -171,6 +171,20 @@ while [[ $i -le $num ]]; do
  echo " "
  ((i++))
 done
+#inverted half pyramid with numbers
+read -p "please enter the rows and the colms : " num
+i=$num
+while [[ $i -ge 1 ]]; do
+ j=1
+ k=1
+ while [[ $j -le $i ]];do
+   echo -n "$k" 
+ ((j++))
+ ((k++))
+ done
+ echo " "
+ ((i--))
+done
 
 
 
