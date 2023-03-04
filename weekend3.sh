@@ -80,4 +80,20 @@ while [[ $i -le $num ]]; do
  ((i++))
 done
 
+#lower matrix of numbers
+read -p "please enter the rows and the colms : " num
+i=1
+while [[ $i -le $num ]]; do
+ j=1
+ k=1
+ while [[ $j -le $i ]];do
+  echo -n "$k"
+  ((k++))
+  ((j++))
+ done
+ echo " "
+ ((i++))
+done
+
+
 
