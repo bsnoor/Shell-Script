@@ -67,3 +67,17 @@ for (( i=1;i < 11;i++ ));do
  echo " "
 done
 
+# full square
+read -p "please enter the rows and the colms : " num
+i=1
+while [[ $i -le $num ]]; do
+ j=1
+ while [[ $j -le $num ]];do
+  echo -n "*"
+  ((j++))
+ done
+ echo " "
+ ((i++))
+done
+
+
