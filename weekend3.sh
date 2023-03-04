@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 function day_of_the_week()
 {
 read -p "please enter a number between 1 and 7 : " num1
