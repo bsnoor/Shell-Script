@@ -49,4 +49,13 @@ while [[ $num -gt 0 ]];do
  num=$((num/10))
 done
 echo " the reverse number is $rev "
+ #the max 
+ read -p "please enter a 3 numbers : " num1 num2 num3
+if [[ $num1 -gt $num2 ]] && [[ $num1 -gt $num3 ]];then
+ echo "the largest number is $num1 "
+elif [[ $num2 -gt $num1 ]] && [[ $num2 -gt $num3 ]];then
+  echo "the largest number is $num2 "
+else
+    echo "the largest number is $num3 "
+fi
 
