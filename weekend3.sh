@@ -32,3 +32,10 @@ esac
 }
 
 day_of_the_week
+
+#odd position in a given n digit
+read -p "enter a number with 5 digits: " num5
+i=0
+while [[ $i -lt ${#num5} ]];do
+ echo "${num5:$i:1}"
+ let i=i+2
