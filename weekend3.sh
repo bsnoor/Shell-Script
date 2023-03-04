@@ -58,4 +58,12 @@ elif [[ $num2 -gt $num1 ]] && [[ $num2 -gt $num3 ]];then
 else
     echo "the largest number is $num3 "
 fi
+#multiplication table
+ 
+for (( i=1;i < 11;i++ ));do
+ for ((j=1;j<11 ;j++));do
+  echo -n "$((i*j)) |"
+  done
+ echo " "
+done
 
