@@ -37,7 +37,7 @@ while [[ $i -le $num1 ]];do
   done
   k=1
   while [[ $k -le $num1 ]];do
-   if [[ $i -eq 1 ]] || [[ $k -eq 1 ]] || [[ $i -eq $num1 ]] || [[ $k -eq $num>
+   if [[ $i -eq 1 ]] || [[ $k -eq 1 ]] || [[ $i -eq $num1 ]] || [[ $k -eq $num1 ]];then
     echo  -n "*"
   else
    echo -n " "
