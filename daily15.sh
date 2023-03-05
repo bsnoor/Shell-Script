@@ -26,6 +26,27 @@ while [[ $i -ge 1 ]];do
   echo " "
    ((i--))
   done
+#empty_para
+read -p "please enter number: " num1
+i=1
+while [[ $i -le $num1 ]];do
+ j=1
+ while [[ $j -le $i  ]];do
+     echo -n " "
+  ((j++))
+  done
+  k=1
+  while [[ $k -le $num1 ]];do
+   if [[ $i -eq 1 ]] || [[ $k -eq 1 ]] || [[ $i -eq $num1 ]] || [[ $k -eq $num>
+    echo  -n "*"
+  else
+   echo -n " "
+  fi
+   ((k++))
+   done
+  echo " "
+   ((i++))
+  done
 
 
 
