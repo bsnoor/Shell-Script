@@ -47,6 +47,11 @@ while [[ $i -le $num1 ]];do
   echo " "
    ((i++))
   done
+#read in uppercase
+while IFS= read -r line;do
+echo ${line^^};
+done < input.txt
+
 
 
 
