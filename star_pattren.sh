@@ -109,8 +109,24 @@ while [[ $i -le $num ]]; do
   echo "  "
   ((i++))
 done
+# upside down pyramid
+  read -p "please enter a number " num
+i=$num
+while [[ $i -ge 1 ]];do
+ j=$num
+  while [[ $j -ge 1 ]];do
+   if [[ $j -ge $i ]];then
+      echo -n " "
+   else
+      echo -n " *"
+   fi
+  ((j--))
+ done
+ echo " "
+ ((i--))
+done
 
-  
+
 
 
 
